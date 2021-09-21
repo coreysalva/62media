@@ -38,10 +38,6 @@
   flex-flow: row;
 }
 
-body{
-  background-color: #f3863c;
-}
-
 .main-left{
   flex-flow: column;
   display: flex;
@@ -61,7 +57,8 @@ body{
 }
 
 body {
-  padding: 2em; 
+  padding: 2em;
+  background-color: #f3863c;
 }
 
 h1, h2, .footer p, .body-num, .body-media{
@@ -109,4 +106,8 @@ h1{
 .body-media{
   color: #6b6c70;
   font-weight: bold;
+}
+
+.ipad-div{
+  overflow: hidden;
 }
