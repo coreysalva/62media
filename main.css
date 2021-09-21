@@ -39,9 +39,8 @@
 }
 
 .main-left{
-  flex-flow: column;
+  flex-flow: row;
   display: flex;
-  margin-top: 65px;
 }
 
 .sidebar{
@@ -49,7 +48,7 @@
 }
 
 .carousel{
-    text-align: center;
+    text-align: right;
 }
 
 .main-logo{
