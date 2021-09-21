@@ -38,7 +38,7 @@
   flex-flow: row;
 }
 
-.body{
+body{
   background-color: #f3863c;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .sidebar{
-  text-align: right;
+  text-align: left;
 }
 
 .carousel{
@@ -84,7 +84,7 @@ h2{
 }
 
 h1{
-  color: #f37e38;
+  color: #FFFFFF;
   font-weight: 800;
   font-size: 48px;
   line-height: 50px;
