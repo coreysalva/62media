@@ -38,6 +38,10 @@
   flex-flow: row;
 }
 
+.body{
+  background-color: #f3863c;
+}
+
 .main-left{
   flex-flow: column;
   display: flex;
