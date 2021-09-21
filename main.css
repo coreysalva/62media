@@ -87,8 +87,11 @@ h1{
 }
 
 .footer p{
-  color: #6b6c70;
-  font-size: 16px;
+  color: #000;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: initial;
+  text-align: left;
 }
 
 .body-text{
