@@ -95,6 +95,7 @@ h1{
   font-family: sans-serif;
   font-weight: initial;
   text-align: left;
+  /* display: none; */
 }
 
 .body-text{
