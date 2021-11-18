@@ -10,6 +10,7 @@
   .sidebar{
     width: 100% !important;
   }
+  
 
   h1{
     font-size: 8vw !important;
@@ -28,6 +29,10 @@
 
   .container {
     display: flex !important;
+  }
+
+  sidebar-title{
+    display: unset !important;
   }
 }
 
@@ -130,10 +135,13 @@ h1, h2{
 }
 
 h2{
-  color: #6b6c70;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+sidebar-title{
+  display: none;
 }
 
 h1{
