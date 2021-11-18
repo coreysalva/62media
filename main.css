@@ -29,7 +29,7 @@
     display: none !important;
   }
 
-  .side-contact, .sidebar-subtitle{
+  .sidebar-contact, .sidebar-subtitle{
     display: unset !important;
     margin-left: 25px !important;
   }
@@ -163,7 +163,7 @@ h2{
   color: #2c2e35;
 }
 
-.sidebar-title, .sidebar-subtitle, .side-subcontact{
+.sidebar-title, .sidebar-subtitle, .sidebar-contact{
   display: none;
 }
 
