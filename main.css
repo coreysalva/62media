@@ -22,8 +22,12 @@
     height: auto;
   }
 
+  .side-menu{
+    display: none;
+  }
+
   .container {
-    display: flex;
+    display: flex !important;
   }
 }
 
@@ -60,6 +64,7 @@
 }
 
 .side-menu{
+  display: unset;
   margin-top: 160px;
 }
 
