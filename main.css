@@ -36,7 +36,7 @@
     display: flex !important;
   }
 
-  sidebar-title{
+  .sidebar-title{
     display: unset !important;
     width: 205px;
     margin: 0 auto;
