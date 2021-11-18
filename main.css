@@ -18,6 +18,10 @@
   .carousel-logo{
     max-width: 95vw;
   }
+
+  .container {
+    display: flex;
+  }
 }
 
 @media (max-width: 767px) {   
@@ -65,7 +69,7 @@
 }
 
 .main-left{
-  flex-flow: row wrap-reverse;
+  flex-flow: row;
   display: flex;
 }
 
@@ -88,6 +92,12 @@
   letter-spacing: 1.3px;
   padding-bottom: 100px;
   margin-top: -210px !important;
+}
+
+.sidebar-mobile {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
 }
 
 .main-logo{
@@ -161,4 +171,16 @@ h1{
 
 .filler{
   font-variant: initial;
+}
+
+.container {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
 }
