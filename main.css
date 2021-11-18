@@ -87,10 +87,10 @@
 
 .main {
   text-align: left;
-  /* background: deepskyblue; */
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
+  max-width: 95vw;
 }
 
 .main-left{
@@ -227,7 +227,7 @@ h1{
 }
 
 .item {
-  flex: 0 32%;
+  flex: 0 50%;
   height: 33px;
   margin-bottom: 2%; /* (100-32*3)/2 */
   text-align: center;
