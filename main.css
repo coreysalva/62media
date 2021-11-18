@@ -29,7 +29,7 @@
     display: none !important;
   }
 
-  .side-subcontact, .sidebar-subtitle{
+  .side-contact, .sidebar-subtitle{
     display: unset !important;
     margin-left: 25px !important;
   }
