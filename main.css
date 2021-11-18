@@ -30,6 +30,7 @@
 
   .side-subcontact, .sidebar-subtitle{
     display: unset !important;
+    margin-left: 25px;
   }
 
   .container {
@@ -148,6 +149,7 @@ h2{
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1.3px;
+  color: #2c2e35;
 }
 
 .sidebar-title, .sidebar-subtitle, .side-subcontact{
@@ -167,6 +169,7 @@ h1{
 .sidebar-subtitle{
   font-size: 24px;
   font-weight: 700;
+
 }
 
  p{
