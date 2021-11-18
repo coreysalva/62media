@@ -188,7 +188,8 @@ h1{
 }
 
 .filler{
-  font-variant: initial;
+  color: #f37e38;
+  width: auto;
 }
 
 .container {
