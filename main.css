@@ -28,6 +28,10 @@
     display: none !important;
   }
 
+  .side-subcontact, .sidebar-subtitle{
+    display: unset !important;
+  }
+
   .container {
     display: flex !important;
   }
@@ -142,11 +146,11 @@ h1, h2{
 
 h2{
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 1.3px;
 }
 
-.sidebar-title{
+.sidebar-title, .sidebar-subtitle, .side-subcontact{
   display: none;
 }
 
@@ -158,6 +162,11 @@ h1{
   line-height: 55px;
   text-align: center;
   margin: 0px 383px 50px 0;
+}
+
+.sidebar-subtitle{
+  font-size: 24px;
+  font-weight: 700;
 }
 
  p{
