@@ -19,7 +19,7 @@
   }
 
   .carousel-logo{
-    margin: 0;
+    margin: 0 !important;
     max-width: 95vw;
     height: auto;
   }
@@ -38,7 +38,7 @@
   }
 
   .sidebar-title{
-    display: unset !important;
+    display: block !important;
     width: 205px;
     margin: 0 auto;
   }
@@ -216,6 +216,6 @@ h1{
 
 .item {
   flex: 0 32%;
-  height: 100px;
+  height: 33px;
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
