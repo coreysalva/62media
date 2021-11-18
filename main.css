@@ -15,7 +15,7 @@
 
   .main-title{
     font-size: 8vw !important;
-    line-height: 4vh !important;
+    line-height: 6vh !important;
     margin: 0px 0% 5% 0 !important;
   }
 
@@ -36,6 +36,7 @@
 
   .container {
     display: flex !important;
+    padding-bottom: 20px;
   }
 
   .sidebar-title{
@@ -119,6 +120,10 @@
   margin-top: -31vh !important;
 }
 
+.sidebar-contact{
+  margin: 10px;
+}
+
 .sidebar-mobile {
   font-size: 20px;
   font-weight: 600;
@@ -168,7 +173,7 @@ h1{
 }
 
 .sidebar-subtitle{
-  font-size: 24px;
+  font-size: 6vw;
   font-weight: 700;
 
 }
