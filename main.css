@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   
   .wrapper{     
-    max-width: 98vw;
+    max-width: 95vw;
   }
 
   .main-left{
@@ -41,7 +41,7 @@
 
   .sidebar-title{
     display: block !important;
-    width: 205px;
+    max-width: 275px;
     margin: 0 auto;
   }
 
@@ -223,6 +223,7 @@ h1{
   display: none;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 95vw;
 }
 
 .item {
