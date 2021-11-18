@@ -1,3 +1,33 @@
+@media (max-width: 480px) {   
+  .wrapper{     
+    max-width: 98vw;
+  }
+
+  .main-left{
+    flex-flow: row wrap-reverse;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+
+  h1{
+    margin: 0px 16% 5% 0;
+  }
+
+  .carousel-logo{
+    max-width: 95vw;
+  }
+}
+
+@media (max-width: 767px) {   
+  .nav-prev{     
+    position:absolute;     
+    bottom:0;     
+    left:0;
+  }
+}
+
 .wrapper {
   display: flex;  
   flex-flow: row wrap;
@@ -35,7 +65,7 @@
 }
 
 .main-left{
-  flex-flow: row;
+  flex-flow: row wrap-reverse;
   display: flex;
 }
 
