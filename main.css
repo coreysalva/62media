@@ -123,6 +123,7 @@
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1.2px;
+  text-align: center;
 }
 
 .main-logo{
@@ -219,4 +220,5 @@ h1{
   flex: 0 32%;
   height: 33px;
   margin-bottom: 2%; /* (100-32*3)/2 */
+  text-align: center;
 }
