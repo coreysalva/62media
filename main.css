@@ -8,17 +8,18 @@
   }
 
   .sidebar{
-    width: 100%;
+    width: 100% !important;
   }
 
   h1{
-    font-size: 8vw;
-    line-height: 4vh;
-    margin: 0px 16% 5% 0;
+    font-size: 8vw !important;
+    line-height: 4vh !important;
+    margin: 0px 16% 5% 0 !important;
   }
 
   .carousel-logo{
     max-width: 95vw;
+    height: auto;
   }
 
   .container {
@@ -85,7 +86,7 @@
 
 .carousel-logo{
   margin: -20px 0;
-  height: 750px;
+  max-height: 682px;
 }
 
 .sidebar-extra {
